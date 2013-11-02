@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("program oblicza procen z liczby\n");
+printf("podaj pierwszą liczbe\n");
+scanf("%d",&a);							/*program mnoży dwie liczby*/
+printf("podaj druga liczbe\n");
+scanf("%d",&b);
+c=a*b;
+printf("wynik;\n%d",c);
+printf("\n");
+return 0;
+}
