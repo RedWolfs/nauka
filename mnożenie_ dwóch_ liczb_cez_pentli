@@ -2,7 +2,7 @@
 int main()
 {
 int a,b,c;
-printf("program oblicza procen z liczby\n");
+printf("program mnoży dwie  liczby\n");
 printf("podaj pierwszą liczbe\n");
 scanf("%d",&a);							/*program mnoży dwie liczby*/
 printf("podaj druga liczbe\n");
