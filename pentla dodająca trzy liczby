@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+float a,b,c ,wynik;
+char e=a ,f=b, h=c;
+while(wynik= a+b+c){
+printf("\n");
+printf("pogran dodaje trzy liczby:\n"); //pentla  polegająca na dodaniu trzech liczb
+printf("podaj pierwszą liczbe:\n");
+scanf("%f",&a);
+printf("Podaj drugą liczbe:\n");
+scanf("%f",&b);
+printf("Podaj trzecią liczbę:\n");
+scanf("%f",&c);
+
+wynik=a+b+c;
+printf("Suma trzech liczb wynosi%f\n", wynik);
+}
+return 0;
+}
