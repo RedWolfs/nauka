@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+float a,b,c ,wynik;
+printf("pogran dodaje trzy liczby\n");
+printf("powaj pierwszą liczbe\n");
+scanf("%f",&a);
+printf("Podaj drugą liczbe\n");
+scanf("%f",&b);
+printf("Podaj trzecią liczbę\n");
+scanf("%f",&c);
+printf("Suma trzech liczb wynosi\n");
+wynik=a+b+c;
+printf("%f",wynik);
+return 0;
+}
