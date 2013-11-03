@@ -1,0 +1,46 @@
+#include<stdio.h>
+main()
+{
+float a,b,c,plus,minus ,wynik_dodawania,wynik_odejmowania,wynik_mnozenia , wynik_dzielenia;    //program dodaje,odejmuje,mnoży i dzieli dwie podane liczby 
+printf("dodawanie wpisz: 1\t");
+printf("odejmowanie wpisz; 2\t");
+printf("\n");
+printf("mnożenie wpisz: 3\t");
+printf("dzielenie wpisz:4\t");
+printf("\n");
+scanf("%f",&c);
+if (c==1){
+printf("podaj liczbę\n");
+scanf("%f",&a);
+printf("podaj drugą liczbę\n");
+scanf("%f",&b);
+wynik_dodawania=a+b;
+printf("suma wynosi :%f\n" ,wynik_dodawania);
+}else if (c==2){
+printf("odejnowanie\n");
+printf("podaj liczbę:\n");
+scanf("%f",&a);
+printf("podaj drugą licze:\n");
+scanf("%f",&b);
+wynik_odejmowania=a-b;
+printf("wynikk odejmowania:%f\n",wynik_odejmowania);
+}
+else if(c==3){
+printf("podaj  liczbę:\n");
+scanf("%f",&a);
+printf("podaj drugą liczbe:\n");
+scanf("%f",&b);
+wynik_mnozenia=a*b;
+printf("iloraz wynosi :%f\n",wynik_mnozenia);
+}
+else if(c==4){
+printf("Podaj  liczbę\n");
+scanf("%f",&a);
+printf("Podaj drugą liczbe:\n");
+scanf("%f",&b);
+wynik_dzielenia=a/b;
+printf("iloczyn wynosi:%f\n",wynik_dzielenia);
+}
+return 0;
+
+}
