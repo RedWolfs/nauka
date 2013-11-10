@@ -1,0 +1,18 @@
+#include<stdio.h>
+main(){
+int  a;
+printf("podaj liczbe\n");
+scanf("%d",&a);
+if(a<5){
+printf("liczba mniejsza od 5\n");
+}
+else if (a>5){
+printf("liczba większa od 5\n");
+}
+else if (a==5){
+printf("liszba równa 5\n");
+}
+return 0;
+}
+
+
